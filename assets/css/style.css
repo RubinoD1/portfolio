@@ -27,11 +27,17 @@ nav ul li {
     text-decoration:underline;
 }
 
-.about-me-img {
-    width: 250px;
-    float: left;
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.profile-bio {
+.about-me-img {
+    width: 250px;
+    float:left;
+}
+
+.about-me-content {
     float: right;
 }

@@ -21,3 +21,17 @@ nav ul li {
     border-radius: 25px;
     padding: 45px;
 }
+
+#about-me h2 {
+    text-align: center;
+    text-decoration:underline;
+}
+
+.about-me-img {
+    width: 250px;
+    float: left;
+}
+
+.profile-bio {
+    float: right;
+}

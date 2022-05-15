@@ -12,8 +12,9 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
+
 }
 
 nav ul li {
@@ -34,10 +35,45 @@ nav ul li {
 }
 
 .about-me-img {
-    width: 250px;
+    width: 400px;
     float:left;
 }
 
 .about-me-content {
     float: right;
 }
+
+#portfolio {
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+}
+
+.portfolio ul {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.portfolio ul li {
+    flex: 50%;
+    font-size: 25px;
+    
+}
+
+.portfolio-main {
+    flex: 100%;
+    border-style: solid;
+    text-align: center;
+    background-color: lightblue;
+    
+}
+
+.portfolio-main-img {
+    
+    max-height: 400px;
+    max-width: fit-content;
+}
+

@@ -28,3 +28,6 @@ Sample of potential employee's previous work
 Images: ![Live site screenshots](/assets/images/screenshot1.png)
 
 ![Live site screenshots](/assets/images/screenshot2.png)
+
+![Live site screenshots](/assets/images/screenshot3.png)
+

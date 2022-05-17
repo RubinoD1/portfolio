@@ -1,8 +1,9 @@
-#Portfolio Website 
+# Portfolio Website 
+**Assignment Notes**
 
-README
+Live URL: [https://rubinod1.github.io/portfolio/](https://rubinod1.github.io/portfolio/)
 
-Live URL:
+Git repository: [https://github.com/RubinoD1/portfolio](https://github.com/RubinoD1/portfolio)
 
  I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them.
 - Added my name as part of the site's header.
@@ -22,4 +23,6 @@ WHEN I resize the page or view the site on various screens and devices then I am
 Sample of potential employee's previous work 
 - Added the run-buddy module site as a project as I have nothing else at the moment to put within the projects section. This will be removed once I have more work that can replace this. 
 
-Screenshots:
+Images: ![Live site screenshots](/assets/images/screenshot1.png)
+
+![Live site screenshots](/assets/images/screenshot2.png)

@@ -44,12 +44,14 @@ body {
     margin: 40px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .hero h1 p {
     float:left;
   }
+
+
 
   .hero-image { 
     float:right;

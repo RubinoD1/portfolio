@@ -42,6 +42,9 @@ body {
   .hero {
     border-style: solid;
     margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .hero h1 p {
@@ -49,11 +52,10 @@ body {
   }
 
   .hero-image { 
-    
-    width: 400px;
-    height: 500px;
+    float:right;
+    width: 50%;
+    height: 50%;
     object-fit: contain;
-
   }
   
   /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */

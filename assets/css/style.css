@@ -41,14 +41,17 @@ body {
   /* flexbox to align content and img inside box? remove float properties for hero */
   .hero {
     border-style: solid;
-    margin: 40px;
+    margin: 35px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
-  .hero h1 p {
-    float:left;
+  #hero-text {
+    text-align: center;
+    font-size: 25px;
+    width: 50%;
+    height: 50%;
   }
 
 

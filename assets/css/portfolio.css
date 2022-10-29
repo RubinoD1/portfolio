@@ -2,11 +2,29 @@ header {
     text-align: center;
     text-decoration: underline;
     padding-top: 25px;
+    padding-bottom: 30px;
 }
 
-footer {
+article {
     text-align: center;
-    
+    display: inline-block;
+}
+
+
+.featured-image {
+    float:left;
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+    padding-left: 35px;
+}
+
+
+
+
+footer {
+   padding-top: 25px;
+   text-align: center;
     
 }
 

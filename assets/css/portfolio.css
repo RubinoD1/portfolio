@@ -5,19 +5,21 @@ header {
     padding-bottom: 30px;
 }
 
-article {
-    text-align: center;
-    display: inline-block;
-}
-
-
-.featured-image {
-    float:left;
-    width: 30%;
-    height: 30%;
-    object-fit: contain;
-    padding-left: 35px;
-}
+.row {
+    margin-bottom: 20px;
+  }
+  .row .row {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  [class*="col-"] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #eee;
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid #ddd;
+    border: 1px solid rgba(86, 61, 124, .2);
+  }
 
 
 

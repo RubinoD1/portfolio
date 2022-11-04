@@ -17,7 +17,7 @@
 <!-- Remember to organize html elements into proper sections: header, hero, etc. -->
 
 <!-- The navigation menu -->
-<nav class="navbar">
+<nav class="navbar sticky-top">
   <a href="index.html"><i class="fa fa-fw fa-home"></i> HOME </a> 
   <a href="#"> ABOUT </a>
   <a class="active" href="portfolio.html"><i class="fa fa-fw fa-github"></i> PORTFOLIO </a>
@@ -26,7 +26,7 @@
 
 <!-- portfolio header -->
 <header class="header">
-  <img class="header-image" src="assets/images/coding-banner-edit.jpg" alt="" />
+  <img class="header-image " src="assets/images/coding-banner-edit.jpg" alt="" />
 </header>
 
 
@@ -35,34 +35,41 @@
 <main class="container">
   <!-- add col breakpoints for screen sizes sm, md ,etc. -->
   <div class="row">
-    <img class="col-6" src="assets/images/whatscooking.png" alt=""> 
+    <img class="col-6 featured-image" src="assets/images/whatscooking.png" alt=""> 
     <div class="col-6">
-      <h2>What's Cooking</h2>
+      <h2 class="font-weight-bold">What's Cooking</h2>
       <p>A food web blog built using MERN full-stack.</p>
+      <a href="#" class="btn .btn-lg btn-outline-danger" role="button"> View On GitHub </a>
     </div>
   </div>
 
   
   <div class="row">
-    <img class="col-6" src="assets/images/Wishlist-it.png" alt=""> 
+    <img class="col-6 featured-image" src="assets/images/Wishlist-it.png" alt=""> 
     <div class="col-6">
-      <h2> Wishlist-it: Product Tracker</h2>
+      <h2 class="font-weight-bold"> Wishlist-it: Product Tracker</h2>
       <p>A food web blog built using MERN full-stack.</p>
+      <a href="#" class="btn .btn-lg btn-outline-danger" role="button"> View On GitHub </a>
     </div>
   </div>
 
   
   <div class="row">
-    <img class="col-6" src="assets/images/Movie Search.png" alt=""> 
+    <img class="col-6 featured-image" src="assets/images/Movie Search.png" alt=""> 
     <div class="col-6">
-      <h2>Movie Search Project</h2>
+      <h2 class="font-weight-bold">Movie Search </h2>
       <p>A food web blog built using MERN full-stack.</p>
+      <a href="#" class="btn .btn-lg btn-outline-danger" role="button"> View On GitHub </a>
     </div>
   </div>
 
 </main>
 
-<!-- break to create space between portfolio and footer content-->
+
+
+
+
+<!-- break to create space between portfolio and footer content. Possibly add top padding and replace. -->
 <br/> 
 
 <!-- footer -->

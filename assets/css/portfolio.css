@@ -30,8 +30,10 @@ header {
   background-color: rgb(0, 0, 0, 0.8);
 }
 
+/* adjust padding to 4 direction 25, 0 , 25, 0 */
 footer {
    padding-top: 25px;
+   padding-bottom: 25px;
    text-align: center;
 }
 

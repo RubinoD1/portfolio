@@ -1,0 +1,30 @@
+:root {
+    background-color: rgba(255, 250, 240, 0.8); 
+}
+
+.column {
+    float: left;
+    width: 50%;
+    background-color: rgba(255, 250, 240, 0.8);
+  }
+
+.right {
+  float: right;
+  width: 50%;  
+  
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline solid rgba(0, 0, 0, 0.8);
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    background-color: snow;
+}
+

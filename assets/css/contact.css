@@ -30,5 +30,6 @@ body, html {
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 }
 
-
-
+.contact-info {
+  padding-right: 10px;
+}

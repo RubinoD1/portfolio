@@ -1,9 +1,5 @@
-
-
 .column {
-   
-    
-    background-color: rgba(242, 242, 242, 0.3);
+   background-color: rgba(242, 242, 242, 0.3);
 }
 
 .title {
@@ -39,4 +35,27 @@ p {
     margin-top: 40px;
   }
 
+
+/* Media break points */
+@media screen and (max-width: 1330px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right {
+        width: 80%;
+        height: 50%;
+    }
+    
+    .left {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 80%;
+        height: 50%;
+     }
+
+}
 

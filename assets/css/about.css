@@ -1,13 +1,9 @@
-:root {
-    background-color: rgba(242, 242, 242, 0.2);
-}
-
 
 
 .column {
    
     
-    background-color: rgba(242, 242, 242, 0.2);
+    background-color: rgba(242, 242, 242, 0.3);
 }
 
 .title {
@@ -17,7 +13,7 @@
     padding-top: 15px;
     padding-bottom: 25px;
     /* change */
-    background-color: rgba(242, 242, 242, 0.2);
+    background-color: rgba(242, 242, 242, 0.3);
     
 }
 

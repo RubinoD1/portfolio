@@ -4,9 +4,9 @@ header {
   padding-bottom: 30px;
 }
 
-.header-image {
-width: 1180px;
-height: 300px;
+.img-fluid {
+  width: 1180px;
+  height: 300px;
 }
 
 
@@ -42,22 +42,9 @@ footer {
 /* media break points */
 
 @media screen and (max-width: 980px) {
-.header-image {
-  width: 800px;
-  height: 400px;
-}
-}
-
-@media screen and (max-width: 768px) {
-.header-image {
-  width: 600px;
-  height: 200px;
-}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+ }
 }
 
-@media screen and (max-width: 575px) {
-.header-image {
-  width: 300px;
-  height: 100px;
-}
-}

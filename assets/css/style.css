@@ -49,6 +49,7 @@ body {
     font-size: 25px;
     width: 50%;
     height: 50%;
+    padding-top: 75px;
   }
 
  .hero-image { 
@@ -97,6 +98,10 @@ body {
 
     .hero-image {
       width: 75%;
+    }
+
+    #hero-text {
+      padding-top: 0px;
     }
    
   }

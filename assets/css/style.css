@@ -5,15 +5,13 @@
 body {
     background-color:rgb(255,245,238);
     font-family: Arial, Helvetica, sans-serif;
-    /* margin adjusts the space between content */
     margin: 0;
-    
-}
+  }
 
 /* Style the navigation menu */
 .navbar {
     width: 100%;
-    background-color: #555;
+    background-color: rgb(85,85,85);
     overflow: auto;
   }
   
@@ -21,24 +19,23 @@ body {
   .navbar a {
     float: left;
     padding: 12px;
-    color: white;
+    color: rgb(255,255,255);
     text-decoration: none;
     font-size: 17px;
     width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: center; /* If you want the text to be centered */
+    text-align: center; 
   }
   
   /* Add a background color on mouse-over */
   .navbar a:hover {
-    background-color: #000;
+    background-color: rgb(0,0,0);
   }
   
   /* Style the current/active link */
   .navbar a.active {
-    background-color: #04AA6D;
+    background-color: rgb(46 121 157);
   }
 
-  /* flexbox to align content and img inside box? remove float properties for hero */
   .hero {
     border-style: solid;
     margin: 35px;
@@ -59,12 +56,11 @@ body {
     width: 50%;
     height: 50%;
     object-fit: contain;
-}
+  }
 
 .fa-linkedin {
   background: #007bb5;
   color: white;
-
 }
 
 .email {
@@ -80,7 +76,6 @@ body {
 .icon {
   padding: 20px;
   font-size: 30px;
-
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -91,12 +86,26 @@ body {
   opacity: 0.7;
 }
   
-  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  /* Media break points */
+  @media screen and (max-width: 960px) {
+    .hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero-image {
+      width: 75%;
+    }
+   
+  }
+ 
   @media screen and (max-width: 500px) {
     .navbar a {
       float: none;
       display: block;
       width: 100%;
-      text-align: left; /* If you want the text to be left-aligned on small screens */
+      text-align: left; 
     }
   }

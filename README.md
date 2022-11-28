@@ -13,7 +13,7 @@ This is a front-end built portfolio website made using the following technologie
 - Font-awesome 
 - Bootstrap
 
-Font-awesome is used for the websites icons and Bootstrap primarily on the portfolio page for the responsive grid layouts. The contact page uses a copyright free background image taken from: [Picography](https://picography.co/).
+Font-awesome is used for the website's icons and Bootstrap primarily on the portfolio page for the responsive grid layouts. The contact page uses a copyright-free background image taken from [Picography](https://picography.co/).
 
 
 

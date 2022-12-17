@@ -41,7 +41,7 @@ h2 {
 
 /* technology card */
 .tech-card {
-    float: left;
+    float: right;
     width: 20%;
     padding: 0 10px;
 }
@@ -54,6 +54,9 @@ h2 {
     background-color: #f1f1f1;
 }
 
+.card-image {
+    max-width: 250px;
+}
 
 
 

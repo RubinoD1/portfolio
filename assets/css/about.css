@@ -41,7 +41,6 @@ h2 {
 
 /* technology card */
 .tech-card {
-    
     width: 10%;
     padding: 0 10px;
 }
@@ -66,6 +65,12 @@ h2 {
 
 
 /* Media break points */
+@media screen and (max-width: 1615px) {
+    .tech-card {
+        width: 25%;
+    }
+}
+
 @media screen and (max-width: 1330px) {
     .flex {
         display: flex;
